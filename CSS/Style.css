@@ -1,0 +1,1569 @@
+* {
+    font-family: 'Archivo', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: #555;
+    font-size: 13pt;
+    line-height: 1.3;
+}
+
+/*  Navigation section  */
+
+.navigation {
+    border-bottom: solid 2px #174655;
+
+}
+
+.inline_block, .My_Logo {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.My_Logo {
+    width: 12%;
+    padding: .25%;
+    height: 65px;
+    justify-content: center;
+}
+
+nav {
+    width: 83%;
+    padding: 1%;
+    color: #174655;
+    text-align: right;
+
+}
+
+.Main_logo{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+ul {
+   width: 70%;
+   margin-left: auto;
+}
+
+li {
+   
+
+    margin-left: 10px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14pt;
+}
+
+.contact {
+    margin-left: 10px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #174655;
+    color: white;
+    scale: 115%;
+    margin-right: 20px;
+    font-size: 14pt;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+/* Hero Section */
+/* Hero Section */
+
+
+
+.hero {
+align-items: center;
+display: block;
+}
+
+.hero_content{
+position: relative;
+}
+
+.hero img:first-child{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    z-index: 1;
+}
+
+
+.hero img {
+    width: 93%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 99;
+    size: 80%;
+
+}
+
+ /*  About Me Section    */
+  /*  About Me Section    */
+   /*  About Me Section    */
+
+
+ .About_Me {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px;
+    padding-top: 150px;
+    background-color: #174655;
+}
+
+.left_column {
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.left_column img {
+    width: 100%;
+    height: auto;
+    transform: scaleX(-1);
+}
+
+.right_column {
+    width: 55%;
+    box-sizing: border-box;
+    padding-top: 80px;
+}
+
+.right_column h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.right_column #About_Paragraph {
+    color: #ffffff;
+  
+ 
+    
+}
+
+.hobbies_box {
+    margin-top: 50px;
+    padding: 10px;
+
+}
+
+.hobbies_box h3 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.hobbies_row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.hobby_icon {
+    width: calc(20% - 10px);
+    margin-bottom: 10px;
+ 
+}
+
+.hobby_image1,.hobby_image2, .hobby_image3, .hobby_image4, .hobby_image5 {
+    height: 118px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+
+}
+
+.hobby_image1{
+    background-image: url(Images/Illustration_icon.png);
+}
+
+.hobby_image2{
+    background-image: url(Images/Gaming_icon.png);
+}
+
+.hobby_image3{
+    background-image: url(Images/Fishing_icon.png);
+}
+
+.hobby_image4{
+    background-image: url(Images/RC_Flying_icon.png);
+}
+
+.hobby_image5{
+    background-image: url(Images/Hockey_Icon.png);
+}
+
+.hobby_paragraph {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/*  My Services Section  */
+/*  My Services Section  */
+/*  My Services Section  */
+
+#My_Services{
+    margin-top: 100px;
+    width: 100%;
+}
+
+.My_Service_Frame {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    place-items: center;
+    width: 95%;
+    margin: 50px auto;
+
+}
+
+#My_Services h1 {
+    color: #333;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.Service_Card1, .Service_Card2, .Service_Card3, .Service_Card4, .Service_Card5, .Service_Card6 {
+    width: 100%;
+    box-sizing: border-box;
+    outline: 3px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.Service_header1, .Service_header2, .Service_header3, .Service_header4, .Service_header5, .Service_header6 {
+    font-size: 18px;
+}
+
+.Graphic_design_img, .Prototyping_img, .Idation_img, .Design_system_img, .Interaction_Design_img, .Logo_design_img {
+    width: 160px; 
+    height: 150px; 
+    background-color: deeppink;
+    margin: 20px auto;
+    padding-top: 10px;
+}
+
+.Idation_img {
+    background-image: url(Images/ideation_still.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+.Design_system_img{
+    background-image: url(Images/Design_ststem_still.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+.Interaction_Design_img {
+    background-image: url(Images/interaction_Design_still.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+
+}
+
+.Prototyping_img {
+    background-image: url(Images/Prototyping_still.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+.Graphic_design_img {
+    background-image: url(Images/Graphic_Design_still.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+.Logo_design_img {
+    background-image: url(Images/Logo_Design_still.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+
+/* HOVER CARD STATE */
+/* HOVER CARD STATE */
+/* HOVER CARD STATE */
+
+.Service_Card1:hover {
+    outline: 5px solid #D9B912;
+    transition: .25s;
+}
+
+.Service_Card1:hover .Idation_img {
+    background-image: url(Images/Ideation_animate.gif);
+}
+
+.Service_Card1:hover .Service_header1 {
+    color: #D9B912;
+    transition: .25s;
+}
+
+.Service_Card2:hover {
+    outline: 5px solid #6DAEEB;
+    transition: .25s;
+    border: none;
+}
+
+.Service_Card2:hover .Design_system_img {
+    background-image: url(Images/Design_system_animate.gif);
+}
+
+.Service_Card2:hover .Service_header2 {
+    color: #6DAEEB;
+    transition: .25s;
+}
+
+.Service_Card3:hover {
+    outline: 5px solid orange;
+    transition: .25s;
+}
+
+.Service_Card3:hover .Interaction_Design_img {
+    background-image: url(Images/Interaction_Design_animate.gif);
+}
+
+.Service_Card3:hover .Service_header3 {
+    color: orange;
+    transition: .25s;
+}
+
+.Service_Card4:hover {
+    outline: 5px solid #F20074;
+    transition: .25s;
+}
+
+.Service_Card4:hover .Prototyping_img {
+    background-image: url(Images/Prototyping_animate.gif);
+}
+
+.Service_Card4:hover .Service_header4 {
+    color: #F20074;
+    transition: .25s;
+}
+
+.Service_Card5:hover {
+    outline: 5px solid #9747FF;
+    transition: .25s;
+}
+
+.Service_Card5:hover .Graphic_design_img {
+    background-image: url(Images/Graphic_Design_animate.gif);
+}
+
+.Service_Card5:hover .Service_header5 {
+    color: #9747FF;
+    transition: .25s;
+}
+
+
+.Service_Card6:hover {
+    outline: 5px solid #3ABF18;
+    transition: .25s;
+}
+
+.Service_Card6:hover .Logo_design_img {
+    background-image: url(Images/Logo_Design_animate.gif);
+}
+
+.Service_Card6:hover .Service_header6 {
+    color: #3ABF18;
+    transition: .25s;
+}
+
+/* MY WORK SECTION */
+/* MY WORK SECTION */
+/* MY WORK SECTION */
+
+.My_work{
+    width: 100%;
+}
+
+
+.bck_container{
+    width: 100%;
+    background-color: #174655;
+}
+
+.bck_container p{
+    color: white;
+}
+
+.work_BCK{
+    display: flex;
+    gap: 50px;
+}
+
+
+#bck_discription{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 2px;
+    color: white;
+    border-top: 3px solid orange;
+    padding-top: 15px;
+    border-bottom: 2px solid orange;
+    padding-bottom: 15px;
+}
+
+.roll1 h3, .roll2 h3, .roll3 h3{
+    color: white;
+    margin-bottom: 15px;
+    text-decoration: underline 2px orange;
+    text-underline-offset: 7px;
+}
+
+.bck_left{
+    flex-basis: 40%;
+    padding: 40px;
+    padding-left: 60px;
+
+}
+
+.bck_logo{
+    background-image:url(Images/BCK_Logo.png);
+    width: 80%;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+}
+
+.bck_MyRoll_container{
+    display: flex;
+
+}
+
+.roll1, .roll2, .roll3 {
+    flex-basis: 33.33%;
+    margin-right: 10px;
+
+}
+
+.bck_right{
+    flex-basis: 60%;
+    padding: 40px;
+}
+
+.BCK_bttn{
+    all: unset;
+    background-color: orange;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #174655;
+    
+}
+
+.bck_img_cards{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.bck_card1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(Images/BCK_Card_cover.png);
+    width: 70%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 6;
+    transition: .48s;
+}
+
+.bck_card2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(Images/BCK_Card_safety.png);
+    width: 70%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: 0 0;
+    rotate: 5deg;
+    z-index: 5;
+    transition: .48s ;
+}
+
+.bck_card3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(Images/BCK_Card_groups.png);
+    width: 70%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: 0 0;
+    rotate: 10deg;
+   z-index: 4;
+   transition: .48s;
+}
+
+.bck_card4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(Images/BCK_Card_quote.png);
+    width: 70%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: 0 0;
+    rotate: 15deg;
+    z-index: 3;
+    transition: .48s;
+}
+
+.bck_img_cards:hover .bck_card1{
+   
+    top: 50%;
+    left: 30%;
+    rotate: -3deg;
+   
+}
+
+.bck_img_cards:hover .bck_card2{
+   
+    top: 50%;
+    left: 40%;
+    rotate: 10deg;
+   
+}
+
+.bck_img_cards:hover .bck_card3{
+   
+    top: 50%;
+    left: 50%;
+    rotate: 15deg;
+   
+}
+
+.bck_img_cards:hover .bck_card4{
+   
+    top: 50%;
+    left: 60%;
+    rotate: 20deg;
+   
+}
+
+.bck_restack_bttn { 
+    display: inline-block;
+    all: unset;
+    height: 20px;
+    background-color: orange;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: #174655;
+}
+
+.bck_img_cards:active{
+    .bck_restack_bttn{
+        margin-top: 85%;
+    }
+    .bck_card1 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        height: 50%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 22%;
+        margin-left: 15%;
+       }
+       .bck_card2 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        height: 50%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 22%;
+        margin-left: 70%;
+       }
+    
+       .bck_card3 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        height: 50%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 60%;
+        margin-left: 15%;
+       }
+
+       .bck_card4 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        height: 50%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 60%;
+        margin-left: 70%;
+       }
+
+}
+
+.bck_img_cards:visited{
+    .bck_restack_bttn{
+        margin-top: 0px;
+    }
+    margin-top: 10px;
+    
+}
+
+
+/* Hike Connect */
+
+
+.hike_container{
+    width: 100%;
+
+}
+
+.work_hike{
+    display: flex;
+    gap: 50px;
+}
+
+#hike_discription{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 2px;
+    color: black;
+    border-top: 3px solid orange;
+    padding-top: 15px;
+    border-bottom: 2px solid orange;
+    padding-bottom: 15px;
+}
+
+.hike_container h3{
+    color: black;
+    margin-bottom: 15px;
+    text-decoration: underline 2px orange;
+    text-underline-offset: 7px;
+}
+
+.hike_MyRoll_container p{
+    color: black !important;
+}
+
+.hike_left{
+    flex-basis: 60%;
+    padding: 30px;
+
+}
+
+.hike_logo{
+    background-image:url(Images/Hike_Logo.png);
+    width: 80%;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+}
+
+.hike_MyRoll_container{
+    display: flex;
+
+}
+
+.hike_roll1, .hike_roll2, .hike_roll3 {
+    flex-basis: 33.33%;
+   margin-left: 10px;
+
+}
+
+.hike_right{
+    flex-basis: 40%;
+    padding: 40px;
+    margin-right: 20px;
+}
+
+.hike_bttn{
+    all: unset;
+    background-color: orange;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #174655;
+    
+}
+
+.hike_img_cards{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.hike_card1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(Images/Hike_cover.png);
+    width: 70%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 6;
+    transition: .48s;
+}
+
+.hike_card2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(Images/Hike_Pin_review.png);
+    width: 70%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: 0 0;
+    rotate: 5deg;
+    z-index: 5;
+    transition: .48s ;
+}
+
+.hike_card3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(Images/Hike_pin_drop.png);
+    width: 70%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: 0 0;
+    rotate: 10deg;
+   z-index: 4;
+   transition: .48s;
+}
+
+.hike_card4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(Images/Hike_download_map.png);
+    width: 70%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: 0 0;
+    rotate: 15deg;
+    z-index: 3;
+    transition: .48s;
+}
+
+.hike_card5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(Images/Hike_cover.png);
+    width: 70%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: 0 0;
+    rotate: 20deg;
+    z-index: 2;
+    transition: .48s;
+}
+
+.hike_card6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(Images/Hike_saved_maps.png);
+    width: 70%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: 0 0;
+    rotate: 25deg;
+    z-index: 1;
+    transition: .48s;
+}
+
+
+.hike_img_cards:hover .hike_card1{
+   
+    top: 50%;
+    left: 30%;
+    rotate: -3deg;
+   
+}
+
+.hike_img_cards:hover .hike_card2{
+   
+    top: 50%;
+    left: 40%;
+    rotate: 10deg;
+   
+}
+
+.hike_img_cards:hover .hike_card3{
+   
+    top: 50%;
+    left: 50%;
+    rotate: 15deg;
+   
+}
+
+.hike_img_cards:hover .hike_card4{
+   
+    top: 50%;
+    left: 60%;
+    rotate: 20deg;
+   
+}
+
+.hike_img_cards:hover .hike_card5{
+   
+    top: 50%;
+    left: 70%;
+    rotate: 25deg;
+   
+}
+
+.hike_img_cards:hover .hike_card6{
+   
+    top: 50%;
+    left: 80%;
+    rotate: 30deg;
+   
+}
+
+.hike_restack_bttn { 
+    display: inline-block;
+    all: unset;
+    height: 20px;
+    background-color: orange;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: #174655;
+}
+
+.hike_img_cards:active{
+    .hike_restack_bttn{
+        margin-top: 85%;
+    }
+    .hike_card1 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        height: 40%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 22%;
+        margin-left: 15%;
+       }
+       .hike_card2 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        height: 40%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 22%;
+        margin-left: 50%;
+       }
+    
+       .hike_card3 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        height: 40%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 22%;
+        margin-left: 85%;
+       }
+
+       .hike_card4 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        height: 40%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 60%;
+        margin-left: 15%;
+       }
+
+       .hike_card5 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        height: 40%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 60%;
+        margin-left: 50%;
+       }
+
+       .hike_card6 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        height: 40%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 60%;
+        margin-left: 85%;
+       }
+
+}
+
+
+/* Fur_Venture */
+
+
+.fur_container{
+    width: 100%;
+    background-color: #174655;
+}
+
+.fur_box{
+    display: flex;
+    gap: 50px;
+}
+
+
+#fur_discription{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 2px;
+    color: white;
+    border-top: 3px solid orange;
+    padding-top: 15px;
+    border-bottom: 2px solid orange;
+    padding-bottom: 15px;
+}
+
+
+
+.fur_left{
+    flex-basis: 40%;
+    padding: 40px;
+    padding-left: 60px;
+
+}
+
+.fur_logo{
+    background-image:url(Images);
+    width: 80%;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+}
+
+.fur_MyRoll_container{
+    display: flex;
+
+}
+
+.fur_box p{
+    color: white;
+}
+
+.roll1, .roll2, .roll3 {
+    flex-basis: 33.33%;
+
+}
+
+.fur_right{
+    flex-basis: 60%;
+    padding: 40px;
+}
+
+.fur_bttn{
+    all: unset;
+    background-color: orange;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #174655;
+    
+}
+
+.fur_img_cards{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.fur_card1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(Images/Fur_SignIn.png);
+    width: 70%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 6;
+    transition: .48s;
+}
+
+.fur_card2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(Images/Fur_homeScreen.png);
+    width: 70%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: 0 0;
+    rotate: 5deg;
+    z-index: 5;
+    transition: .48s ;
+}
+
+.fur_card3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(Images/Fur_HardenHotel.png);
+    width: 70%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: 0 0;
+    rotate: 10deg;
+   z-index: 4;
+   transition: .48s;
+}
+
+.fur_card4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(Images/BCK_Card_quote.png);
+    width: 70%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: 0 0;
+    rotate: 15deg;
+    z-index: 3;
+    transition: .48s;
+}
+
+.fur_img_cards:hover .fur_card1{
+   
+    top: 50%;
+    left: 30%;
+    rotate: -3deg;
+   
+}
+
+.fur_img_cards:hover .fur_card2{
+   
+    top: 50%;
+    left: 40%;
+    rotate: 10deg;
+   
+}
+
+.fur_img_cards:hover .fur_card3{
+   
+    top: 50%;
+    left: 50%;
+    rotate: 15deg;
+   
+}
+
+.fur_img_cards:hover .fur_card4{
+   
+    top: 50%;
+    left: 60%;
+    rotate: 20deg;
+   
+}
+
+.fur_restack_bttn { 
+    display: inline-block;
+    all: unset;
+    height: 20px;
+    background-color: orange;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: #174655;
+}
+
+.fur_img_cards:active{
+    .fur_restack_bttn{
+        margin-top: 85%;
+    }
+    .fur_card1 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        height: 50%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 22%;
+        margin-left: 15%;
+       }
+       .fur_card2 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        height: 50%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 22%;
+        margin-left: 70%;
+       }
+    
+       .fur_card3 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        height: 50%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 60%;
+        margin-left: 15%;
+       }
+
+       .fur_card4 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        height: 50%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 60%;
+        margin-left: 70%;
+       }
+
+}
+
+.bck_img_cards:visited{
+    .bck_restack_bttn{
+        margin-top: 0px;
+    }
+    margin-top: 10px;
+    
+}
+
+
+.bck_img_cards:visited{
+    .bck_restack_bttn{
+        margin-top: 0px;
+    }
+    margin-top: 10px;
+
+}
+
+
+/* Contact Me Section */
+/* Contact Me Section */
+/* Contact Me Section */
+
+.Contact_Me{
+   width: 100%;
+}
+
+.Contact_container{
+    width: 85%;
+    margin: 50px auto;
+}
+
+.Contact_container h2{
+    margin-bottom: 50px;
+}
+
+.contact-box{
+    display: flex;
+    gap: 50px;
+}
+
+.contact-box h1{
+    font-size: 30pt;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: .7;
+}
+
+.Contact_left{
+    flex-basis: 40%;
+    padding: 40px;
+}
+
+.Contact_right{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.input_row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.input_row .input_group{
+    flex-basis: 45%;
+
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #174655;
+    padding-left: 5px;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+}
+
+label{
+    margin-bottom: 5px;
+    font-size: 11pt;
+    display: block
+
+}
+
+.Contact_bttn{
+    background-color: #174655;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 35px;
+    margin-top: 10px;
+
+}
+
+.contact_icon_frame{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+   
+}
+
+.Contact_icon{
+    float: left;
+    width: 25%;
+    height: 70px;
+    background-image: url(Images/call_icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.contact_icon_frame p{
+  color: black;
+}
+
+/* Footer section */
+/* Footer section */
+/* Footer section */
+
+
+footer {
+    background-color: #174655;
+    text-align: center;
+}
+
+footer h3{
+    display: inline-block;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 40px;
+    color: white;
+}
+
+.footer_logo_container {
+    float: right;
+    margin-right: 50px;
+
+}
+
+.footer_FB {
+    display: inline-block;
+    background-image: url(Images/FB_icon.png);
+    height: 30px;
+    width: 40px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+ 
+    
+}
+
+.footer_linkedIn {
+    display: inline-block;
+    background-image: url(Images/Linkedin_icon.png);
+    height: 30px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left:  10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+.footer_Behnce {
+    display: inline-block;
+    background-image: url(Images/Behance_icon.png);
+    height: 30px;
+    width: 70px;
+    margin-top: 5px;
+    margin-left:  15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+
+
+
+
+
+/* TEST Page */
+/* TEST Page */
+/* TEST Page */
+
+
+
+.test1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+.box1{
+    background-color: orange;
+    border-radius: 5px;
+    line-height: 60px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 30px;
+}
+
+.box p{
+    color: white;
+}
+
+.animate {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.one{
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+
+}
+
+.two{
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+
+}
+
+.three{
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+
+}
+
+.fadeup {
+    -webkit-animation-name: fadeup;
+    animation-name: fadeup;
+
+}
+
+.faderight {
+    -webkit-animation-name: faderight;
+    animation-name: faderight;
+
+}
+
+
+@-webkit-keyframes fadeup{
+    from{
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d( 0, 100%, 0);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+
+}
+
+@keyframes fadeup{
+    from{
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d( 0, 100%, 0);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+
+}
+
+@-webkit-keyframes faderight{
+    from{
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+    to{
+        opacity: 0;
+       -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d( 100%, 0, 0);
+    }
+
+}
+
+@keyframes ffaderight{
+    from{
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+    to{
+        opacity: 0;
+       -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d( 100%, 0, 0);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
