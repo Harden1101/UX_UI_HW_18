@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
 
-html, body{
-    overflow-x: hidden;
-}
 
 p {
     color: #555;
@@ -19,7 +16,6 @@ p {
 #body_wrapper{
     display: block;
     max-width: 1440px;
-    background-color: tan;
     height: auto;
     margin: auto;
 }
@@ -138,7 +134,7 @@ position: relative;
     padding: 21px;
     padding-top: 150px;
     background-color: #174655;
-    margin: 0, -9999rem;
+    margin: 0, -9999px;
 }
 
 .left_column {
