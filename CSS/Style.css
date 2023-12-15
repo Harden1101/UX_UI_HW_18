@@ -266,7 +266,7 @@ position: relative;
 }
 
 .Idation_img {
-    background-image: url(../Images/ideation_still.png);
+    background-image: url(../Images/Ideation_still.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -282,7 +282,7 @@ position: relative;
 }
 
 .Interaction_Design_img {
-    background-image: url(../Images/interaction_Design_still.png);
+    background-image: url(../Images/Interaction_Design_still.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -307,7 +307,7 @@ position: relative;
 }
 
 .Logo_design_img {
-    background-image: url(../Images/Logo_Design_still.png);
+    background-image: url(../Images/Logo_design_still.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
