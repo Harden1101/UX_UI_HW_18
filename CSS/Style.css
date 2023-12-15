@@ -12,6 +12,14 @@ p {
     line-height: 1.3;
 }
 
+#body_wrapper{
+    display: block;
+    max-width: 1440px;
+    background-color: pink;
+    height: auto;
+    margin: 0, 0;
+}
+
 /*  Navigation section  */
 
 .navigation {
