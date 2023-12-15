@@ -192,23 +192,23 @@ position: relative;
 }
 
 .hobby_image1{
-    background-image: url(Images/Illustration_icon.png);
+    background-image: url(../Images/Illustration_icon.png)
 }
 
 .hobby_image2{
-    background-image: url(Images/Gaming_icon.png);
+    background-image: url(../Images/Gaming_icon.png);
 }
 
 .hobby_image3{
-    background-image: url(Images/Fishing_icon.png);
+    background-image: url(../Images/Fishing_icon.png);
 }
 
 .hobby_image4{
-    background-image: url(Images/RC_Flying_icon.png);
+    background-image: url(../Images/RC_Flying_icon.png);
 }
 
 .hobby_image5{
-    background-image: url(Images/Hockey_Icon.png);
+    background-image: url(../Images/Hockey_Icon.png);
 }
 
 .hobby_paragraph {
@@ -266,7 +266,7 @@ position: relative;
 }
 
 .Idation_img {
-    background-image: url(Images/ideation_still.png);
+    background-image: url(../Images/ideation_still.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -274,7 +274,7 @@ position: relative;
 }
 
 .Design_system_img{
-    background-image: url(Images/Design_ststem_still.png);
+    background-image: url(../Images/Design_ststem_still.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -282,7 +282,7 @@ position: relative;
 }
 
 .Interaction_Design_img {
-    background-image: url(Images/interaction_Design_still.png);
+    background-image: url(../Images/interaction_Design_still.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -291,7 +291,7 @@ position: relative;
 }
 
 .Prototyping_img {
-    background-image: url(Images/Prototyping_still.png);
+    background-image: url(../Images/Prototyping_still.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -299,7 +299,7 @@ position: relative;
 }
 
 .Graphic_design_img {
-    background-image: url(Images/Graphic_Design_still.png);
+    background-image: url(../Images/Graphic_Design_still.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -307,7 +307,7 @@ position: relative;
 }
 
 .Logo_design_img {
-    background-image: url(Images/Logo_Design_still.png);
+    background-image: url(../Images/Logo_Design_still.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -325,7 +325,7 @@ position: relative;
 }
 
 .Service_Card1:hover .Idation_img {
-    background-image: url(Images/Ideation_animate.gif);
+    background-image: url(../Images/Ideation_animate.gif);
 }
 
 .Service_Card1:hover .Service_header1 {
@@ -340,7 +340,7 @@ position: relative;
 }
 
 .Service_Card2:hover .Design_system_img {
-    background-image: url(Images/Design_system_animate.gif);
+    background-image: url(../Images/Design_system_animate.gif);
 }
 
 .Service_Card2:hover .Service_header2 {
@@ -354,7 +354,7 @@ position: relative;
 }
 
 .Service_Card3:hover .Interaction_Design_img {
-    background-image: url(Images/Interaction_Design_animate.gif);
+    background-image: url(../Images/Interaction_Design_animate.gif);
 }
 
 .Service_Card3:hover .Service_header3 {
@@ -368,7 +368,7 @@ position: relative;
 }
 
 .Service_Card4:hover .Prototyping_img {
-    background-image: url(Images/Prototyping_animate.gif);
+    background-image: url(../Images/Prototyping_animate.gif);
 }
 
 .Service_Card4:hover .Service_header4 {
@@ -382,7 +382,7 @@ position: relative;
 }
 
 .Service_Card5:hover .Graphic_design_img {
-    background-image: url(Images/Graphic_Design_animate.gif);
+    background-image: url(../Images/Graphic_Design_animate.gif);
 }
 
 .Service_Card5:hover .Service_header5 {
@@ -397,7 +397,7 @@ position: relative;
 }
 
 .Service_Card6:hover .Logo_design_img {
-    background-image: url(Images/Logo_Design_animate.gif);
+    background-image: url(../Images/Logo_Design_animate.gif);
 }
 
 .Service_Card6:hover .Service_header6 {
@@ -455,7 +455,7 @@ position: relative;
 }
 
 .bck_logo{
-    background-image:url(Images/BCK_Logo.png);
+    background-image:url(../Images/BCK_Logo.png);
     width: 80%;
     height: 100px;
     background-size: contain;
@@ -505,7 +505,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(Images/BCK_Card_cover.png);
+    background-image:url(../Images/BCK_Card_cover.png);
     width: 70%;
     height: 70%;
     background-size: contain;
@@ -520,7 +520,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(Images/BCK_Card_safety.png);
+    background-image:url(../Images/BCK_Card_safety.png);
     width: 70%;
     height: 70%;
     background-size: contain;
@@ -537,7 +537,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(Images/BCK_Card_groups.png);
+    background-image:url(../Images/BCK_Card_groups.png);
     width: 70%;
     height: 70%;
     background-size: contain;
@@ -554,7 +554,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(Images/BCK_Card_quote.png);
+    background-image:url(../Images/BCK_Card_quote.png);
     width: 70%;
     height: 70%;
     background-size: contain;
@@ -713,7 +713,7 @@ position: relative;
 }
 
 .hike_logo{
-    background-image:url(Images/Hike_Logo.png);
+    background-image:url(../Images/Hike_Logo.png);
     width: 80%;
     height: 100px;
     background-size: contain;
@@ -764,7 +764,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(Images/Hike_cover.png);
+    background-image:url(../Images/Hike_cover.png);
     width: 70%;
     height: 60%;
     background-size: contain;
@@ -779,7 +779,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(Images/Hike_Pin_review.png);
+    background-image:url(../Images/Hike_Pin_review.png);
     width: 70%;
     height: 60%;
     background-size: contain;
@@ -796,7 +796,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(Images/Hike_pin_drop.png);
+    background-image:url(../Images/Hike_pin_drop.png);
     width: 70%;
     height: 60%;
     background-size: contain;
@@ -813,7 +813,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(Images/Hike_download_map.png);
+    background-image:url(../Images/Hike_download_map.png);
     width: 70%;
     height: 60%;
     background-size: contain;
@@ -830,7 +830,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(Images/Hike_cover.png);
+    background-image:url(../Images/Hike_cover.png);
     width: 70%;
     height: 60%;
     background-size: contain;
@@ -847,7 +847,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(Images/Hike_saved_maps.png);
+    background-image:url(../Images/Hike_saved_maps.png);
     width: 70%;
     height: 60%;
     background-size: contain;
@@ -1032,7 +1032,7 @@ position: relative;
 }
 
 .fur_logo{
-    background-image:url(Images/FurVenture_logo.png);
+    background-image:url(../Images/FurVenture_logo.png);
     width: 80%;
     height: 100px;
     background-size: contain;
@@ -1085,7 +1085,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(Images/Fur_SignIn.png);
+    background-image:url(../Images/Fur_SignIn.png);
     width: 70%;
     height: 70%;
     background-size: contain;
@@ -1100,7 +1100,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(Images/Fur_homeScreen.png);
+    background-image:url(../Images/Fur_homeScreen.png);
     width: 70%;
     height: 70%;
     background-size: contain;
@@ -1117,7 +1117,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(Images/Fur_HardenHotel.png);
+    background-image:url(../Images/Fur_HardenHotel.png);
     width: 70%;
     height: 70%;
     background-size: contain;
@@ -1134,7 +1134,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(Images/BCK_Card_quote.png);
+    background-image:url(../Images/BCK_Card_quote.png);
     width: 70%;
     height: 70%;
     background-size: contain;
@@ -1352,7 +1352,7 @@ label{
     float: left;
     width: 25%;
     height: 70px;
-    background-image: url(Images/call_icon.png);
+    background-image: url(../Images/call_icon.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1391,7 +1391,7 @@ footer h3{
 
 .footer_FB {
     display: inline-block;
-    background-image: url(Images/FB_icon.png);
+    background-image: url(../Images/FB_icon.png);
     height: 30px;
     width: 40px;
     margin-top: 5px;
@@ -1404,7 +1404,7 @@ footer h3{
 
 .footer_linkedIn {
     display: inline-block;
-    background-image: url(Images/Linkedin_icon.png);
+    background-image: url(../Images/Linkedin_icon.png);
     height: 30px;
     width: 40px;
     margin-top: 5px;
@@ -1417,7 +1417,7 @@ footer h3{
 
 .footer_Behnce {
     display: inline-block;
-    background-image: url(Images/Behance_icon.png);
+    background-image: url(../Images/Behance_icon.png);
     height: 30px;
     width: 70px;
     margin-top: 5px;
