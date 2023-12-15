@@ -19,6 +19,7 @@ p {
 #body_wrapper{
     display: block;
     max-width: 1440px;
+    background-color: tan;
     height: auto;
     margin: auto;
 }
