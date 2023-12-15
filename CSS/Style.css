@@ -1032,7 +1032,7 @@ position: relative;
 }
 
 .fur_logo{
-    background-image:url(Images);
+    background-image:url(Images/FurVenture_logo.png);
     width: 80%;
     height: 100px;
     background-size: contain;
