@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html, body{
+    overflow-x: hidden;
+}
+
 p {
     color: #555;
     font-size: 13pt;
@@ -133,6 +137,7 @@ position: relative;
     padding: 21px;
     padding-top: 150px;
     background-color: #174655;
+    margin: 0, -9999rem;
 }
 
 .left_column {
