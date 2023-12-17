@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 
 * {
     font-family: 'Archivo', sans-serif;
@@ -58,7 +61,7 @@ nav a{
 
 
 ul {
-   width: 70%;
+   width: 100%;
    margin-left: auto;
 }
 
@@ -146,11 +149,15 @@ position: relative;
 
 
  #About_Me {
+   width: 100%;
+    background-color: #174655;
+}
+
+#About_me_container { 
     display: flex;
     justify-content: space-between;
     padding: 21px;
-    padding-top: 150px;
-    background-color: #174655;
+    padding-top: 80px;
 }
 
 .left_column {
@@ -260,8 +267,9 @@ position: relative;
     place-items: center;
     width: 95%;
     margin: 50px auto;
-
 }
+
+
 
 #My_Services h1 {
     color: #333;
@@ -1312,7 +1320,7 @@ position: relative;
     font-size: 30pt;
     margin-top: 20px;
     margin-bottom: 30px;
-    line-height: .7;
+    line-height: 1.3;
 }
 
 .Contact_left{
@@ -1376,12 +1384,13 @@ label{
 
 .Contact_icon{
     float: left;
-    width: 25%;
+    width: 23%;
     height: 70px;
     background-image: url(../Images/call_icon.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 15px;
    
 }
 
@@ -1397,6 +1406,14 @@ label{
 footer {
     background-color: #174655;
     text-align: center;
+   
+}
+
+#footer_container{
+    margin: 0 auto;
+    max-width: 95%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 footer h3{
@@ -1404,7 +1421,7 @@ footer h3{
     height: 40px;
     padding: 0;
     margin: 0;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 40px;
     color: white;
 }
@@ -1455,14 +1472,24 @@ footer h3{
 }
 
 
+/* Media Queriey markup
+
+@media only screen and (max-width: 790px) {
+    .My_Service_Frame {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+*/
+
+
+
 
 
 
 
 /* TEST Page */
 /* TEST Page */
-/* TEST Page */
-
+/* 
 
 
 .test1 {
@@ -1568,6 +1595,12 @@ footer h3{
 
 }
 
+TEST Page */
+
+
+/*
+
+
 @keyframes ffaderight{
     from{
         opacity: 1;
@@ -1582,7 +1615,7 @@ footer h3{
 
 }
 
-
+*/
 
 
 
