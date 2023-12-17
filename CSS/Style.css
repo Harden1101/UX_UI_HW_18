@@ -27,10 +27,6 @@ p {
     vertical-align: top;
 }
 
-.contact {
-    display: inline-block;
-    vertical-align: top;
-}
 
 .My_Logo {
     width: 12%;
@@ -45,6 +41,12 @@ nav {
     color: #174655;
     text-align: right;
 
+}
+
+nav a{
+        text-decoration: none;
+        color: #174655;
+        font-size: 14pt;
 }
 
 .Main_logo{
@@ -65,16 +67,36 @@ li {
 
     margin-left: 10px;
     padding: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 14pt;
 }
 
-.contact {
+.Resume{
+    display: inline-block;
+    vertical-align: top;
     margin-left: 10px;
     padding: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px #174655;
+    color: #174655;
+    scale: 115%;
+    margin-right: 20px;
+    margin-left: 25px;
+    font-size: 14pt;
+    border-radius: 5px;
+
+}
+
+
+.contact {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: #174655;
     color: white;
     scale: 115%;
@@ -123,7 +145,7 @@ position: relative;
    /*  About Me Section    */
 
 
- .About_Me {
+ #About_Me {
     display: flex;
     justify-content: space-between;
     padding: 21px;
@@ -262,8 +284,8 @@ position: relative;
 }
 
 .Graphic_design_img, .Prototyping_img, .Idation_img, .Design_system_img, .Interaction_Design_img, .Logo_design_img {
-    width: 160px; 
-    height: 150px; 
+    min-width: 160px; 
+    min-height: 150px; 
     background-color: deeppink;
     margin: 20px auto;
     padding-top: 10px;
@@ -413,7 +435,7 @@ position: relative;
 /* MY WORK SECTION */
 /* MY WORK SECTION */
 
-.My_work{
+#My_work{
     width: 100%;
 }
 
