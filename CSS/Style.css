@@ -257,6 +257,7 @@ position: relative;
 
 #My_Services{
     margin-top: 100px;
+    margin-bottom: 100px;
     width: 100%;
 }
 
@@ -451,6 +452,8 @@ position: relative;
 .bck_container{
     width: 100%;
     background-color: #174655;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 .bck_container p{
@@ -710,7 +713,8 @@ position: relative;
 
 .hike_container{
     width: 100%;
-
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 .work_hike{
@@ -1036,6 +1040,8 @@ position: relative;
 
 .fur_container{
     width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
     background-color: #174655;
 }
 
@@ -1125,7 +1131,7 @@ position: relative;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    z-index: 6;
+    z-index: 8;
     transition: .48s;
 }
 
@@ -1142,11 +1148,28 @@ position: relative;
     background-position: center;
     transform-origin: 0 0;
     rotate: 5deg;
-    z-index: 5;
+    z-index: 7;
     transition: .48s ;
 }
 
 .fur_card3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(../Images/Fur_Hotel_Search.png);
+    width: 70%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: 0 0;
+    rotate: 10deg;
+   z-index: 6;
+   transition: .48s;
+}
+
+.fur_card4{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1158,33 +1181,84 @@ position: relative;
     background-repeat: no-repeat;
     background-position: center;
     transform-origin: 0 0;
-    rotate: 10deg;
-   z-index: 4;
-   transition: .48s;
+    rotate: 15deg;
+    z-index: 5;
+    transition: .48s;
 }
 
-.fur_card4{
+.fur_card5{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(../Images/BCK_Card_quote.png);
+    background-image:url(../Images/Fur_Booked_room.png);
     width: 70%;
     height: 70%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     transform-origin: 0 0;
-    rotate: 15deg;
+    rotate: 20deg;
+    z-index: 4;
+    transition: .48s;
+}
+
+.fur_card6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(../Images/Fur_GPS.png);
+    width: 70%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: 0 0;
+    rotate: 25deg;
     z-index: 3;
+    transition: .48s;
+}
+
+.fur_card7{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(../Images/Fur_act_scrolled.png);
+    width: 70%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: 0 0;
+    rotate: 30deg;
+    z-index: 2;
+    transition: .48s;
+}
+
+.fur_card8{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(../Images/Fur_act_selected.png);
+    width: 70%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: 0 0;
+    rotate: 35deg;
+    z-index: 1;
     transition: .48s;
 }
 
 .fur_img_cards:hover .fur_card1{
    
     top: 50%;
-    left: 30%;
-    rotate: -3deg;
+    left: 35%;
+    rotate: -10deg;
    
 }
 
@@ -1192,23 +1266,55 @@ position: relative;
    
     top: 50%;
     left: 40%;
-    rotate: 10deg;
+    rotate: -5deg;
    
 }
 
 .fur_img_cards:hover .fur_card3{
    
     top: 50%;
-    left: 50%;
-    rotate: 15deg;
+    left: 45%;
+    rotate: 0deg;
    
 }
 
 .fur_img_cards:hover .fur_card4{
    
     top: 50%;
+    left: 50%;
+    rotate: 5deg;
+   
+}
+
+.fur_img_cards:hover .fur_card5{
+   
+    top: 50%;
+    left: 55%;
+    rotate:10deg;
+   
+}
+
+.fur_img_cards:hover .fur_card6{
+   
+    top: 50%;
     left: 60%;
-    rotate: 20deg;
+    rotate:15deg;
+   
+}
+
+.fur_img_cards:hover .fur_card7{
+   
+    top: 50%;
+    left: 65%;
+    rotate:20deg;
+   
+}
+
+.fur_img_cards:hover .fur_card8{
+   
+    top: 50%;
+    left: 70%;
+    rotate: 25deg;
    
 }
 
@@ -1231,47 +1337,95 @@ position: relative;
         position: absolute;
         top: 0%;
         left: 0%;
-        width: 50%;
-        height: 50%;
+        width: 40%;
+        height: 40%;
         transition: .48s;
         rotate: 0deg;
         margin-top: 22%;
-        margin-left: 15%;
+        margin-left: 20%;
        }
        .fur_card2 {
         position: absolute;
         top: 0%;
         left: 0%;
-        width: 50%;
-        height: 50%;
+        width: 40%;
+        height: 40%;
         transition: .48s;
         rotate: 0deg;
         margin-top: 22%;
-        margin-left: 70%;
+        margin-left: 40%;
        }
     
        .fur_card3 {
         position: absolute;
         top: 0%;
         left: 0%;
-        width: 50%;
-        height: 50%;
+        width: 40%;
+        height: 40%;
         transition: .48s;
         rotate: 0deg;
-        margin-top: 60%;
-        margin-left: 15%;
+        margin-top: 22%;
+        margin-left: 60%;
        }
 
        .fur_card4 {
         position: absolute;
         top: 0%;
         left: 0%;
-        width: 50%;
-        height: 50%;
+        width: 40%;
+        height: 40%;
         transition: .48s;
         rotate: 0deg;
-        margin-top: 60%;
-        margin-left: 70%;
+        margin-top: 22%;
+        margin-left: 80%;
+       }
+
+       .fur_card5 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 40%;
+        height: 40%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 65%;
+        margin-left: 20%;
+       }
+
+       .fur_card6 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 40%;
+        height: 40%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 65%;
+        margin-left: 40%;
+       }
+
+       .fur_card7 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 40%;
+        height: 40%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 65%;
+        margin-left: 60%;
+       }
+
+       .fur_card8 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 40%;
+        height: 40%;
+        transition: .48s;
+        rotate: 0deg;
+        margin-top: 65%;
+        margin-left: 80%;
        }
 
 }
