@@ -575,7 +575,9 @@ position: relative;
     flex-basis: 40%;
     padding: 40px;
     padding-left: 60px;
-
+    animation: fadeleft 2s ease forwards;
+    animation-timeline: view(block);
+    animation-range: cover 0% cover 45%;
 }
 
 .bck_logo{
@@ -604,6 +606,7 @@ position: relative;
 .bck_right{
     flex-basis: 60%;
     padding: 40px;
+
 }
 
 .BCK_bttn{
@@ -795,6 +798,7 @@ position: relative;
 }
 
 
+
 /* Hike Connect */
 
 
@@ -864,6 +868,9 @@ position: relative;
     flex-basis: 40%;
     padding: 40px;
     margin-right: 20px;
+    animation: faderight 2s ease forwards;
+    animation-timeline: view(block);
+    animation-range: cover 0% cover 45%;
 }
 
 .hike_bttn{
@@ -1155,6 +1162,9 @@ position: relative;
     flex-basis: 40%;
     padding: 40px;
     padding-left: 60px;
+    animation: fadeleft 2s ease forwards;
+    animation-timeline: view(block);
+    animation-range: cover 0% cover 45%;
 
 }
 
@@ -1712,6 +1722,36 @@ footer h3{
     
 }
 
+
+/* KEY FRAMES */
+
+@keyframes fadeleft{
+    from{
+        opacity: 1;
+        -webkit-transform: translate3d(-200%, 0, 0);
+        transform: translate3d( -200%, 0, 0);
+    }
+    to{
+        opacity: 1;
+       -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d( 0, 0, 0);
+    }
+
+}
+
+@keyframes faderight{
+    from{
+        opacity: 1;
+        -webkit-transform: translate3d(200%, 0, 0);
+        transform: translate3d( 200%, 0, 0);
+    }
+    to{
+        opacity: 1;
+       -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d( 0, 0, 0);
+    }
+
+}
 
 /* Media Queriey markup
 
