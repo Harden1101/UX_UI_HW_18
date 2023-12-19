@@ -158,6 +158,7 @@ position: relative;
     justify-content: space-between;
     padding: 21px;
     padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 .left_column {
@@ -238,10 +239,12 @@ position: relative;
 
 .hobby_image4{
     background-image: url(../Images/RC_Flying_icon.png);
+    
 }
 
 .hobby_image5{
     background-image: url(../Images/Hockey_Icon.png);
+    
 }
 
 .hobby_paragraph {
@@ -250,6 +253,46 @@ position: relative;
     text-align: center;
 }
 
+
+/* Hobby Card Animation */
+/* Hobby Card Animation */
+
+.hobby_an1, .hobby_an2, .hobby_an3, .hobby_an4, .hobby_an5{
+    opacity: 0;
+    animation: fadeup 1s ease forwards;
+    animation-timeline: view(block);
+    animation-range: cover 20% cover 28%;
+}
+
+.hobby_an2{
+    animation-delay: .5s;
+}
+
+.hobby_an3{
+    animation-delay: 1s;
+}
+
+.hobby_an4{
+    animation-delay: 1.5s;
+}
+
+.hobby_an5{
+    animation-delay: 2s;
+}
+
+@keyframes fadeup{
+    from{
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d( 0, 100%, 0);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+
+}
 
 /*  My Services Section  */
 /*  My Services Section  */
