@@ -498,6 +498,15 @@ position: relative;
     animation-range: cover 5% cover 40%;
 }
 
+.Serv_an2, .Serv_an5{
+    animation-delay: .5s;
+
+}
+
+.Serv_an3, .Serv_an6{
+    animation-delay: 1s;
+}
+
 /* MY WORK SECTION */
 /* MY WORK SECTION */
 /* MY WORK SECTION */
