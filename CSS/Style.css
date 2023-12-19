@@ -483,6 +483,21 @@ position: relative;
     transition: .25s;
 }
 
+
+.Serv_an1, .Serv_an2, .Serv_an3 {
+    opacity: 0;
+    animation: fadeup 1s ease forwards;
+    animation-timeline: view(block);
+    animation-range: cover 15% cover 50%;
+}
+
+.Serv_an4, .Serv_an5, .Serv_an6{
+    opacity: 0;
+    animation: fadeup 1s ease forwards;
+    animation-timeline: view(block);
+    animation-range: cover 5% cover 40%;
+}
+
 /* MY WORK SECTION */
 /* MY WORK SECTION */
 /* MY WORK SECTION */
