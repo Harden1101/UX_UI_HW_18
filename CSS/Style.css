@@ -66,13 +66,16 @@ ul {
 }
 
 li {
-   
-
     margin-left: 10px;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 14pt;
+}
+
+li:hover{
+    border-bottom: 2px solid #174655;
+    font-size: 16pt;
 }
 
 .Resume{
@@ -92,6 +95,14 @@ li {
 
 }
 
+.Resume:hover{
+    background: #174655;
+}
+
+.Resume:hover a{
+    color: white;
+}
+
 
 .contact {
     display: inline-block;
@@ -107,6 +118,15 @@ li {
     font-size: 14pt;
     border-radius: 5px;
 }
+
+.contact:hover{
+    background: white;
+    border: solid 1px #174655;
+    color: #174655;
+    cursor: pointer;
+}
+
+
 
 /* Hero Section */
 /* Hero Section */
