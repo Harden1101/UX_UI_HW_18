@@ -279,25 +279,25 @@ position: relative;
 
 .hobby_an1, .hobby_an2, .hobby_an3, .hobby_an4, .hobby_an5{
     opacity: 0;
-    animation: fadeup 1s ease forwards;
+    animation: fadeup 21s ease forwards;
     animation-timeline: view(block);
-    animation-range: cover 20% cover 28%;
+    animation-range: cover 20% cover 38%;
 }
 
 .hobby_an2{
-    animation-delay: .5s;
+    animation-delay: 3s;
 }
 
 .hobby_an3{
-    animation-delay: 1s;
+    animation-delay: 9s;
 }
 
 .hobby_an4{
-    animation-delay: 1.5s;
+    animation-delay: 15s;
 }
 
 .hobby_an5{
-    animation-delay: 2s;
+    animation-delay: 21s;
 }
 
 @keyframes fadeup{
@@ -955,7 +955,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image:url(../Images/Hike_cover.png);
+    background-image:url(../Images/Hike_addedPin.png);
     width: 70%;
     height: 60%;
     background-size: contain;
