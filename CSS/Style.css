@@ -9,6 +9,10 @@ html{
     box-sizing: border-box;
 }
 
+.Web_Max-width_container{
+    max-width: 1440px;
+    margin: auto;
+}
 
 p {
     color: #555;
@@ -174,7 +178,6 @@ position: relative;
 }
 
 #About_me_container { 
-    max-width: 1440px;
     display: flex;
     justify-content: space-between;
     padding: 21px;
@@ -838,7 +841,7 @@ position: relative;
 
 .hike_left{
     flex-basis: 60%;
-    padding: 30px;
+    padding: 40px;
 
 }
 
@@ -1486,7 +1489,7 @@ position: relative;
         height: 40%;
         transition: .48s;
         rotate: 0deg;
-        margin-top: 65%;
+        margin-top: 60%;
         margin-left: 20%;
        }
 
@@ -1498,7 +1501,7 @@ position: relative;
         height: 40%;
         transition: .48s;
         rotate: 0deg;
-        margin-top: 65%;
+        margin-top: 60%;
         margin-left: 40%;
        }
 
@@ -1510,7 +1513,7 @@ position: relative;
         height: 40%;
         transition: .48s;
         rotate: 0deg;
-        margin-top: 65%;
+        margin-top: 60%;
         margin-left: 60%;
        }
 
@@ -1522,7 +1525,7 @@ position: relative;
         height: 40%;
         transition: .48s;
         rotate: 0deg;
-        margin-top: 65%;
+        margin-top: 60%;
         margin-left: 80%;
        }
 
@@ -1753,6 +1756,167 @@ footer h3{
     }
 
 }
+
+/* Medium size break points */
+/* Medium size break points */
+
+
+@media only screen and (max-width: 1130px){
+  
+   .bck_MyRoll_container h3, .hike_MyRoll_container h3, .fur_MyRoll_container h3{
+    font-size: 12pt;
+   }
+
+
+    .bck_img_cards:active{
+        .bck_restack_bttn{
+            margin-top: 85%;
+        }
+        .bck_card1 {
+            width: 58%;
+            height: 58%;
+            margin-top: 40%;
+            margin-left: 15%;
+           }
+           .bck_card2 {
+            width: 58%;
+            height: 58%;
+            margin-top: 40%;
+            margin-left: 75%;
+           }
+        
+           .bck_card3 {
+            width: 58%;
+            height: 58%;
+            margin-top: 90%;
+            margin-left: 15%;
+           }
+    
+           .bck_card4 {
+            width: 58%;
+            height: 58%;
+            margin-top: 90%;
+            margin-left: 75%;
+           }
+    
+    }
+
+    .hike_img_cards:active{
+        .hike_restack_bttn{
+            margin-top: 85%;
+        }
+        .hike_card1 {
+            width: 50%;
+            height: 40%;
+            margin-top: 30%;
+            margin-left: 15%;
+           }
+           .hike_card2 {
+            width: 50%;
+            height: 40%;
+            margin-top: 30%;
+            margin-left: 50%;
+           }
+        
+           .hike_card3 {
+            width: 50%;
+            height: 40%;
+            margin-top: 30%;
+            margin-left: 85%;
+           }
+    
+           .hike_card4 {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 50%;
+            height: 40%;
+            transition: .48s;
+            rotate: 0deg;
+            margin-top: 60%;
+            margin-left: 15%;
+           }
+    
+           .hike_card5 {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 50%;
+            height: 40%;
+            transition: .48s;
+            rotate: 0deg;
+            margin-top: 60%;
+            margin-left: 50%;
+           }
+    
+           .hike_card6 {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 50%;
+            height: 40%;
+            transition: .48s;
+            rotate: 0deg;
+            margin-top: 60%;
+            margin-left: 85%;
+           }
+
+}
+
+
+@media only screen and (max-width: 990px){
+    .work_BCK{
+        display: inline-block;
+    }
+
+    .bck_right{
+        display: block;
+        width: 100vw;
+        height: 500px;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 790px) {
+    .My_Service_Frame {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media Queriey markup
 
