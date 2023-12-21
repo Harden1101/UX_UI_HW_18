@@ -1,0 +1,206 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+* {
+    font-family: 'Archivo', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Web_Max-width_container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+p {
+    color: #555;
+    font-size: 13pt;
+    line-height: 1.3;
+}
+
+h1{
+    color: blue;
+}
+
+
+/*  Navigation section  */
+
+.navigation {
+    border-bottom: solid 2px #174655;
+
+}
+
+.inline_block, .My_Logo {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.My_Logo {
+    width: 12%;
+    padding: .25%;
+    height: 65px;
+    justify-content: center;
+}
+
+nav {
+    width: 83%;
+    padding: 1%;
+    color: #174655;
+    text-align: right;
+
+}
+
+nav a{
+        text-decoration: none;
+        color: #174655;
+        font-size: 14pt;
+}
+
+.Main_logo{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+ul {
+   width: 100%;
+   margin-left: auto;
+}
+
+li {
+    margin-left: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14pt;
+}
+
+li:hover{
+    border-bottom: 2px solid #174655;
+    font-size: 16pt;
+}
+
+.Resume{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px #174655;
+    color: #174655;
+    scale: 115%;
+    margin-right: 20px;
+    margin-left: 25px;
+    font-size: 14pt;
+    border-radius: 5px;
+
+}
+
+.Resume:hover{
+    background: #174655;
+}
+
+.Resume:hover a{
+    color: white;
+}
+
+
+.contact {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #174655;
+    color: white;
+    scale: 115%;
+    margin-right: 20px;
+    font-size: 14pt;
+    border-radius: 5px;
+}
+
+.contact:hover{
+    background: white;
+    border: solid 1px #174655;
+    color: #174655;
+    cursor: pointer;
+}
+
+#hero {
+    align-items: center;
+    display: block;
+    }
+    
+.hero_content{
+    position: relative;
+    }
+    
+.hero img:first-child{
+        position: absolute;
+        width: 20%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-right: 0px;
+        z-index: 1;
+    }
+    
+    .hero img:nth-child(2){
+        position: absolute;
+         margin-left: 90%;
+        width: 20%;
+        height: auto;
+        margin-top: 5%;
+
+        z-index: 1;
+    }
+    
+.hero img {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 99;
+        size: 80%;
+    
+    }
+
+/* Setion one */ 
+
+#section1{
+    background-color: #FFFDF7;
+    padding-top: 30px;
+    overflow-x: hidden;
+}
+
+#section1 p{
+    margin-bottom: 30px;
+}
+
+.phones_img{
+    height: 125%;
+    width: 125%;
+}
+
+.tools_icon{
+    width: 20%;
+    margin-top: -20px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
