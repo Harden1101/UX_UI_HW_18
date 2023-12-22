@@ -8,7 +8,6 @@ html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 .Web_Max-width_container{
@@ -135,9 +134,13 @@ li:hover{
     cursor: pointer;
 }
 
-#hero {
+/* Hero section */
+/* hero section */
+
+.hero {
     align-items: center;
     display: block;
+    overflow-x: hidden;
     }
     
 .hero_content{
@@ -171,7 +174,6 @@ li:hover{
         margin-right: auto;
         z-index: 99;
         size: 80%;
-    
     }
 
 /* Setion one */ 
@@ -197,6 +199,7 @@ li:hover{
     padding-bottom: 30px;
 }
 
+/* media query for section on text */
 
 @media only screen and (min-width: 768px) {
     .sect1_solution_wider{
@@ -227,6 +230,55 @@ li:hover{
         width: 100%;
     }
 }
+
+/* Section two *//* Section two *//* Section two */
+/* Section two *//* Section two *//* Section two */
+
+.section2 {
+    position: relative;
+
+  }
+  
+  .section2 img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .sect2_content {
+    position: relative;
+    text-align: center;
+    color: blue;
+  }
+  
+  .sect2_content h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .clouds {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    overflow-x: hidden;
+  }
+
+
+
+
+
+
+
+
 
 
 
