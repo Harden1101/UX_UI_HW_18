@@ -274,16 +274,20 @@ li:hover{
 .section3 .col-sm-12 h1 {
     text-align: center;
     width: 100%;
+    font-size: 60pt;
+    padding-bottom: 40px;
 }
 
 .scope_img{
     background-image: url(../Images/BCK_Case/scope_img.png);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
 }
 
 
 
-
+.section4{
+    margin-top: 0px;
+}
 
