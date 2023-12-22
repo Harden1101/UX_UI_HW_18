@@ -278,14 +278,11 @@ li:hover{
     padding-bottom: 40px;
 }
 
-.scope_img{
-    background-image: url(../Images/BCK_Case/scope_img.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 80vh;
+.section3 .col-sm-12 img{
+    display: block;
+    width: 100%;
+    padding-bottom: 50px;
 }
-
-
 
 .section4{
     margin-top: 0px;
