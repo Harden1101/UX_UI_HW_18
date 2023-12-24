@@ -216,6 +216,7 @@ li:hover{
     .sect1_solution_wider{
         width: 170%;
     }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px){
@@ -300,11 +301,13 @@ li:hover{
 }
 
 .section5_left2 img{
-    width: 80%;
+    width: 108%;
+    margin-left: -100px;
+    padding-top: 50px;
 }
 
 .section5_right2 p{
-    margin-top: 100px;
+    margin-top: 140px;
     font-size: 25pt;
 }
 
@@ -313,13 +316,46 @@ li:hover{
     font-size: 40pt;
 }
 
+.section5_right3 img{
+    width: 100%;
+    margin-left: 100px;
+    padding-top: 90px;
+}
+
+.section5_left3 p{
+    margin-top: 170px;
+    font-size: 25pt;
+}
+
+@media only screen and (min-width: 1200px) {
+    .section5_right2 p{
+        margin-top: 140px;
+        font-size: 25pt;
+    }
+
+}
 
 
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+    .section5_right2 p{
+        margin-top: 140px;
+        font-size: 15pt;
+    }
 
+}
 
+.section5_Infinit_Img{
+    margin-top: 50px;
+}
 
+.section5_Infinit_Img img, .section5_Infinity_icon img{
+    width: 100%;
+    margin-top: 30px;
+}
 
-
+.section5_Infinity_icon img{
+    margin-top: 109px;
+}
 
 
 
