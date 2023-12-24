@@ -357,9 +357,34 @@ li:hover{
     margin-top: 109px;
 }
 
+.section5_UserPersona_guy img{
+    width: 110%;
+    margin-left: -40px;
+}
 
+/* Persona Section */
 
+.Persona_section{
+    margin-top: 50px;
+}
 
+.stats_row1, .stats_row2, .stats_row3{
+    border: 1px solid black;
+}
 
+.stats_row1 p, .stats_row2 p, .stats_row3 p{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px ;
+    text-align: center;
+}
 
+.ben{
+    margin-top: 20px;
+    color: black;
+    
+}
 
+.bio{
+    margin-top: 20px;
+}
