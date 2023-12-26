@@ -388,3 +388,93 @@ li:hover{
 .bio{
     margin-top: 20px;
 }
+
+/* comic strip imgs */
+
+.comic1_left, .comic2_right{
+    height: 250px;
+}
+.comic3{
+    height:338px;
+}
+
+.comic_img1{
+    background-image: url(../Images/BCK_Case/comic_cell1.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.comic_img2{
+    background-image: url(../Images/BCK_Case/comic_cell2.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.comic_img3{
+    background-image: url(../Images/BCK_Case/comic_cell3.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.comic_img4{
+    background-image: url(../Images/BCK_Case/comic_cell4.png);
+    width: 100%;
+    height: 168px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.comic_img5{
+    background-image: url(../Images/BCK_Case/comic_cell5.png);
+    width: 100%;
+    height: 168px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.comic_img6{
+    background-image: url(../Images/BCK_Case/comic_cell6.png);
+    width: 100%;
+    height: 630px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.comic_img1:hover{
+    background-image: url(../Images/BCK_Case/comic_cell1_quotes.png);
+}
+
+.comic_img2:hover{
+    background-image: url(../Images/BCK_Case/comic_cell2_quotes.png);
+}
+
+.comic_img3:hover{
+    background-image:url(../Images/BCK_Case/comic_cell3_quotes.png);
+}
+
+.comic_img4:hover{
+    background-image:url(../Images/BCK_Case/comic_cell4_quotes.png);
+}
+
+.comic_img5:hover{
+    background-image:url(../Images/BCK_Case/comic_cell5_quotes.png);
+}
+
+.comic_img6:hover{
+    background-image:url(../Images/BCK_Case/comic_cell6_quotes.png);
+}
+
+
+
+
+
+
+
+
