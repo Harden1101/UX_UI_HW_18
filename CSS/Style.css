@@ -1870,12 +1870,64 @@ footer h3{
         display: inline-block;
     }
 
+    .bck_left{
+        flex-basis: 100%;
+        padding: 40px;
+        padding-left: auto;
+        animation: fadeleft 2s ease forwards;
+        animation-timeline: view(block);
+        animation-range: cover 0% cover 35%;
+    }
+    
+
     .bck_right{
         display: block;
         width: 100vw;
         height: 500px;
         margin: auto;
     }
+
+
+
+    .bck_img_cards:active{
+        .bck_restack_bttn{
+            margin-top: 85%;
+        }
+        .bck_card1 {
+            width: 58%;
+            height: 58%;
+            margin-top: 8%;
+            margin-left: 20%;
+           }
+           .bck_card2 {
+            width: 58%;
+            height: 58%;
+            margin-top: 8%;
+            margin-left: 80%;
+           }
+        
+           .bck_card3 {
+            width: 58%;
+            height: 58%;
+            margin-top: 55%;
+            margin-left: 20%;
+           }
+    
+           .bck_card4 {
+            width: 58%;
+            height: 58%;
+            margin-top: 55%;
+            margin-left: 80%;
+           }
+    
+    }
+
+
+
+
+
+
+
 }
 
 
@@ -1915,14 +1967,14 @@ footer h3{
      .right_column {
          width: 100%;
          box-sizing: border-box;
-         padding-top: 80px;
+         padding-top: 40px;
      }
      
      .right_column h2 {
          color: #ffffff;
          font-size: 24px;
          text-align: center;
-         margin-bottom: 10px;
+         margin-bottom: 30px;
 
      }
 
@@ -1935,8 +1987,35 @@ footer h3{
     
     }
 
+    .work_BCK{
+        display: inline-block;
+    }
 
+    .bck_right{
+        display: block;
+        width: 100%;
+        height: 300px;
+        margin: auto;
+    }
 
+    .work_hike{
+        display: inline-block
+    }
+    .hike_left{
+        display: block;
+        width: 100%;
+        height: 300px;
+        margin: auto;
+    }
+
+    .hike_right{
+        flex-basis: 40%;
+        padding: 40px;
+        margin-right: 20px;
+        animation: faderight 2s ease forwards;
+        animation-timeline: view(block);
+        animation-range: cover 0% cover 35%;
+    }
 
 
 }
