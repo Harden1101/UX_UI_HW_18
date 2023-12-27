@@ -1895,27 +1895,21 @@ footer h3{
 @media only screen and (max-width: 414px) {
    
    
-    #About_Me {
-        width: 100%;
-         background-color: #174655;
-     }
      
      #About_me_container { 
          display: block;
          padding: 21px;
          padding-top: 80px;
-         padding-bottom: 50px;
+  
      }
      
-     .left_column {
-         width: 100%;
-         box-sizing: border-box;
-     }
-     
+    .left_column{
+        width: 100%;
+    }      
+
      .left_column img {
-         width: 100%;
-         height: auto;
-         transform: scaleX(-1);
+         width: 90%;
+         margin-top: 40px;
      }
      
      .right_column {
@@ -1927,122 +1921,24 @@ footer h3{
      .right_column h2 {
          color: #ffffff;
          font-size: 24px;
-         margin-bottom: 10px;
-     }
-     
-     .right_column #About_Paragraph {
-         color: #ffffff;
-       
-      
-         
-     }
-     
-     .hobbies_box {
-         margin-top: 50px;
-         padding: 10px;
-     
-     }
-     
-     .hobbies_box h3 {
-         color: #ffffff;
-         font-size: 18px;
-         margin-bottom: 10px;
-     }
-     
-     .hobbies_row {
-         display: flex;
-         justify-content: space-around;
-         flex-wrap: wrap;
-     
-     }
-     
-     .hobby_icon {
-         width: calc(20% - 10px);
-         margin-bottom: 10px;
-      
-     }
-     
-     .hobby_image1,.hobby_image2, .hobby_image3, .hobby_image4, .hobby_image5 {
-         height: 118px;
-         background-size: contain;
-         background-repeat: no-repeat;
-         background-position: center;
-         margin-bottom: 15px;
-     
-     }
-     
-     .hobby_image1{
-         background-image: url(../Images/Illustration_icon.png)
-     }
-     
-     .hobby_image2{
-         background-image: url(../Images/Gaming_icon.png);
-     }
-     
-     .hobby_image3{
-         background-image: url(../Images/Fishing_icon.png);
-     }
-     
-     .hobby_image4{
-         background-image: url(../Images/RC_Flying_icon.png);
-         
-     }
-     
-     .hobby_image5{
-         background-image: url(../Images/Hockey_Icon.png);
-         
-     }
-     
-     .hobby_paragraph {
-         color: white;
-         font-size: 14px;
          text-align: center;
+         margin-bottom: 10px;
+
      }
-     
-     
-     /* Hobby Card Animation */
-     /* Hobby Card Animation */
-     
-     .hobby_an1, .hobby_an2, .hobby_an3, .hobby_an4, .hobby_an5{
-         opacity: 0;
-         animation: fadeup 21s ease forwards;
-         animation-timeline: view(block);
-         animation-range: cover 20% cover 38%;
-     }
-     
-     .hobby_an2{
-         animation-delay: 3s;
-     }
-     
-     .hobby_an3{
-         animation-delay: 9s;
-     }
-     
-     .hobby_an4{
-         animation-delay: 15s;
-     }
-     
-     .hobby_an5{
-         animation-delay: 21s;
-     }
-     
-     @keyframes fadeup{
-         from{
-             opacity: 0;
-             -webkit-transform: translate3d(0, 100%, 0);
-             transform: translate3d( 0, 100%, 0);
-         }
-         to{
-             opacity: 1;
-             -webkit-transform: none;
-             transform: none;
-         }
-     
-     }
-   
+
     .My_Service_Frame {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .Serv_an2, .Serv_an5, .Serv_an3, .Serv_an6{
+        animation-delay: .0s;
+    
+    }
+
+
+
+
+
 }
 
 
