@@ -1947,7 +1947,8 @@ footer h3{
 @media only screen and (max-width: 414px) {
    
     .Web_Max-width_container{
-        overflow-x: hidden;
+        max-width: 414px;
+        
     }
      
      #About_me_container { 
