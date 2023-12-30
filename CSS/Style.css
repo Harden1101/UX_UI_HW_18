@@ -1948,7 +1948,7 @@ footer h3{
    
     .Web_Max-width_container{
         max-width: 414px;
-        
+        overflow-x:visible;
     }
      
      #About_me_container { 
@@ -2014,10 +2014,39 @@ footer h3{
     .hike_right{
         flex-basis: 40%;
         padding: 40px;
-        margin-right: 20px;
         animation: faderight 2s ease forwards;
         animation-timeline: view(block);
         animation-range: cover 0% cover 35%;
+    }
+
+    .fur_box{
+        display: inline-block;
+    }
+    
+
+    .fur_right{
+        display: block;
+        width: 100%;
+        height: 300px;
+        margin: auto;
+    }
+
+    .contact-box{
+        display: block;
+        gap: 50px;
+    }
+    .Contact_left{
+        padding: 0px;
+    }
+    
+    .Contact_right{
+        flex-basis: 60%;
+        padding: 40px ;
+    }
+    .input_row{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 35px;
     }
 
 
