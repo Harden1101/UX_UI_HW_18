@@ -1806,63 +1806,20 @@ footer h3{
         .hike_restack_bttn{
             margin-top: 85%;
         }
-        .hike_card1 {
-            width: 50%;
-            height: 40%;
-            margin-top: 30%;
-            margin-left: 15%;
-           }
-           .hike_card2 {
-            width: 50%;
-            height: 40%;
-            margin-top: 30%;
-            margin-left: 50%;
-           }
-        
-           .hike_card3 {
-            width: 50%;
-            height: 40%;
-            margin-top: 30%;
-            margin-left: 85%;
+        .hike_card1, .hike_card2, .hike_card3 {
+            margin-top: 40%;
+            width: 90%;
+            height: 90%;
            }
     
-           .hike_card4 {
-            position: absolute;
-            top: 0%;
-            left: 0%;
-            width: 50%;
-            height: 40%;
-            transition: .48s;
-            rotate: 0deg;
-            margin-top: 60%;
-            margin-left: 15%;
+           .hike_card4, .hike_card5, .hike_card6 {
+            margin-top: 120%;
+            width: 90%;
+            height: 90%;
            }
-    
-           .hike_card5 {
-            position: absolute;
-            top: 0%;
-            left: 0%;
-            width: 50%;
-            height: 40%;
-            transition: .48s;
-            rotate: 0deg;
-            margin-top: 60%;
-            margin-left: 50%;
-           }
-    
-           .hike_card6 {
-            position: absolute;
-            top: 0%;
-            left: 0%;
-            width: 50%;
-            height: 40%;
-            transition: .48s;
-            rotate: 0deg;
-            margin-top: 60%;
-            margin-left: 85%;
-           }
+    }
 
-}}
+}
 
 
 @media only screen and (max-width: 990px){
@@ -1920,12 +1877,25 @@ footer h3{
             margin-left: 80%;
            }
     
+
     }
 
-
-
-
-
+    .hike_img_cards:active{
+        .hike_restack_bttn{
+            margin-top: 85%;
+        }
+        .hike_card1, .hike_card2, .hike_card3 {
+            margin-top: 40%;
+            width: 90%;
+            height: 90%;
+           }
+    
+           .hike_card4, .hike_card5, .hike_card6 {
+            margin-top: 120%;
+            width: 90%;
+            height: 90%;
+           }
+    }
 
 
 }
@@ -1994,6 +1964,23 @@ footer h3{
         animation-range: cover 0% cover 35%;
     }
 
+    .hike_img_cards:active{
+        .hike_restack_bttn{
+            margin-top: 85%;
+        }
+        .hike_card1, .hike_card2, .hike_card3 {
+            margin-top: 0%;
+            width: 90%;
+            height: 90%;
+           }
+    
+           .hike_card4, .hike_card5, .hike_card6 {
+            margin-top: 30%;
+            width: 80%;
+            height: 80%;
+           }
+    }
+    
     .fur_box{
         display: inline-block;
     }
@@ -2026,6 +2013,25 @@ footer h3{
         margin-top: 15px;
     }
 
+}
+
+@media only screen and (max-width: 520px) {
+.hike_img_cards:active{
+    .hike_restack_bttn{
+        margin-top: 85%;
+    }
+    .hike_card1, .hike_card2, .hike_card3 {
+        margin-top: 0%;
+        width: 90%;
+        height: 90%;
+       }
+
+       .hike_card4, .hike_card5, .hike_card6 {
+        margin-top: 45%;
+        width: 80%;
+        height: 80%;
+       }
+}
 }
 
 /* phone media *//* phone media *//* phone media */
@@ -2103,6 +2109,23 @@ footer h3{
         animation: faderight 2s ease forwards;
         animation-timeline: view(block);
         animation-range: cover 0% cover 35%;
+    }
+
+        .hike_img_cards:active{
+        .hike_restack_bttn{
+            margin-top: 85%;
+        }
+        .hike_card1, .hike_card2, .hike_card3 {
+            margin-top: 0%;
+            width: 90%;
+            height: 90%;
+           }
+    
+           .hike_card4, .hike_card5, .hike_card6 {
+            margin-top: 65%;
+            width: 80%;
+            height: 80%;
+           }
     }
 
     .fur_box{
