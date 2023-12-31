@@ -1819,6 +1819,65 @@ footer h3{
            }
     }
 
+    .fur_img_cards:active{
+        .fur_restack_bttn{
+            margin-top: 85%;
+        }
+        .fur_card1 {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 40%;
+            height: 40%;
+            transition: .48s;
+            rotate: 0deg;
+            margin-top: 22%;
+            margin-left: 20%;
+           }
+           .fur_card2 {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 40%;
+            height: 40%;
+            transition: .48s;
+            rotate: 0deg;
+            margin-top: 22%;
+            margin-left: 40%;
+           }
+        
+           .fur_card3 {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 40%;
+            height: 40%;
+            transition: .48s;
+            rotate: 0deg;
+            margin-top: 22%;
+            margin-left: 60%;
+           }
+    
+           .fur_card4 {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 40%;
+            height: 40%;
+            transition: .48s;
+            rotate: 0deg;
+            margin-top: 22%;
+            margin-left: 80%;
+           }
+   
+          .fur_card5, .fur_card6, .fur_card7, .fur_card8 {
+            margin-top: 500px;
+
+           }
+    
+    }
+    
+
 }
 
 
@@ -1997,6 +2056,18 @@ footer h3{
         display: block;
     }
     
+    .fur_img_cards:active{
+        .fur_restack_bttn{
+            margin-top: 85%;
+        }
+    
+    .fur_card5, .fur_card6, .fur_card7, .fur_card8 {
+            margin-top: 200px;
+
+           }
+    
+    }
+
     footer {
         background-color: #174655;
         text-align: center;
@@ -2031,6 +2102,18 @@ footer h3{
         width: 80%;
         height: 80%;
        }
+}
+
+.fur_img_cards:active{
+    .fur_restack_bttn{
+        margin-top: 85%;
+    }
+
+.fur_card5, .fur_card6, .fur_card7, .fur_card8 {
+        margin-top: 200px;
+
+       }
+
 }
 }
 
@@ -2139,6 +2222,20 @@ footer h3{
         height: 300px;
         margin: auto;
     }
+
+    .fur_img_cards:active{
+        .fur_restack_bttn{
+            margin-top: 85%;
+        }
+    
+    .fur_card5, .fur_card6, .fur_card7, .fur_card8 {
+            margin-top: 200px;
+
+           }
+    
+    }
+
+}
 
     .contact-box{
         display: block;
