@@ -2062,6 +2062,8 @@ footer h3{
         }
     
     .fur_card5, .fur_card6, .fur_card7, .fur_card8 {
+            width: 70%;
+            height: 70%;
             margin-top: 200px;
 
            }
