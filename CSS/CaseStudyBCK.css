@@ -389,6 +389,20 @@ li:hover{
     margin-top: 20px;
 }
 
+.section5_UserPersona_sliders{
+    padding-top: 11%;
+}
+
+.prioritization_img img{
+    display: block;
+    width: 90%;
+    margin: auto;
+
+    
+
+}
+
+
 /* comic strip imgs */
 
 .comic1_left, .comic2_right{
@@ -477,9 +491,27 @@ li:hover{
     background-image:url(../Images/BCK_Case/comic_cell6_quotes.png);
 }
 
+.user_flow_img{
+    width: 100%;
+    margin: auto;
+}
 
+.user_flow_img img{
+    width: 100%;
+}
 
+.low_fi_mockup_img{
+    width: 100%;
+}
 
+.low_fi_mockup_img img{
+    margin: auto;
+    width: 100%;
+}
+
+.event_poster_imgs{
+    display: flex;
+}
 
 
 
