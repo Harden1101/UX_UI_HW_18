@@ -1819,63 +1819,7 @@ footer h3{
            }
     }
 
-    .fur_img_cards:active{
-        .fur_restack_bttn{
-            margin-top: 85%;
-        }
-        .fur_card1 {
-            position: absolute;
-            top: 0%;
-            left: 0%;
-            width: 40%;
-            height: 40%;
-            transition: .48s;
-            rotate: 0deg;
-            margin-top: 22%;
-            margin-left: 20%;
-           }
-           .fur_card2 {
-            position: absolute;
-            top: 0%;
-            left: 0%;
-            width: 40%;
-            height: 40%;
-            transition: .48s;
-            rotate: 0deg;
-            margin-top: 22%;
-            margin-left: 40%;
-           }
-        
-           .fur_card3 {
-            position: absolute;
-            top: 0%;
-            left: 0%;
-            width: 40%;
-            height: 40%;
-            transition: .48s;
-            rotate: 0deg;
-            margin-top: 22%;
-            margin-left: 60%;
-           }
-    
-           .fur_card4 {
-            position: absolute;
-            top: 0%;
-            left: 0%;
-            width: 40%;
-            height: 40%;
-            transition: .48s;
-            rotate: 0deg;
-            margin-top: 22%;
-            margin-left: 80%;
-           }
-   
-          .fur_card5, .fur_card6, .fur_card7, .fur_card8 {
-            margin-top: 500px;
 
-           }
-    
-    }
     
 
 }
@@ -1956,6 +1900,85 @@ footer h3{
            }
     }
 
+    .fur_img_cards:active{
+        .fur_restack_bttn{
+            margin-top: 85%;
+        }
+        .fur_card1 {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 30%;
+            height: 30%;
+            transition: .48s;
+            rotate: 0deg;
+            margin-top: 150px;
+            margin-left: 10%;
+           }
+           .fur_card2 {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 30%;
+            height: 30%;
+            transition: .48s;
+            rotate: 0deg;
+            margin-top: 150px;
+            margin-left: 45%;
+           }
+        
+           .fur_card3 {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 30%;
+            height: 30%;
+            transition: .48s;
+            rotate: 0deg;
+            margin-top: 150px;
+            margin-left: 80%;
+           }
+    
+           .fur_card4 {
+            width: 30%;
+            height: 30%;
+            margin-top: 440px;
+            margin-left: 10%;
+           }
+   
+          .fur_card5 {
+            width: 30%;
+            height: 30%;
+            margin-top: 440px;
+            margin-left: 45%;
+
+           }
+
+           .fur_card6 {
+            width: 30%;
+            height: 30%;
+            margin-top: 440px;
+            margin-left: 80%;
+
+           }
+
+           .fur_card7 {
+            width: 30%;
+            height: 30%;
+            margin-top: 740px;
+            margin-left: 28%;
+
+           }
+
+           .fur_card8 {
+            width: 30%;
+            height: 30%;
+            margin-top: 740px;
+            margin-left: 65%;
+
+           }
+    
+    }
 
 }
 
@@ -2052,23 +2075,92 @@ footer h3{
         margin: auto;
     }
 
-        .contact-box{
-        display: block;
-    }
-    
     .fur_img_cards:active{
         .fur_restack_bttn{
             margin-top: 85%;
         }
+        .fur_card1 {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 75%;
+            height: 75%;
+            transition: .48s;
+            rotate: 0deg;
+            margin-top: 5%;
+            margin-left: 20%;
+           }
+           .fur_card2 {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 75%;
+            height: 75%;
+            transition: .48s;
+            rotate: 0deg;
+            margin-top: 5%;
+            margin-left: 40%;
+           }
+        
+           .fur_card3 {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 75%;
+            height: 75%;
+            transition: .48s;
+            rotate: 0deg;
+            margin-top: 5%;
+            margin-left: 60%;
+           }
     
-    .fur_card5, .fur_card6, .fur_card7, .fur_card8 {
-            width: 70%;
-            height: 70%;
-            margin-top: 200px;
+           .fur_card4 {
+            width: 75%;
+            height: 75%;
+            margin-top: 5%;
+            margin-left: 80%;
+           }
+   
+          .fur_card5 {
+            width: 75%;
+            height: 75%;
+            margin-top: 220px;
+            margin-left: 20%;
+
+           }
+
+           .fur_card6 {
+            width: 75%;
+            height: 75%;
+            margin-top: 220px;
+            margin-left: 40%;
+
+           }
+
+           .fur_card7 {
+            width: 75%;
+            height: 75%;
+            margin-top: 220px;
+            margin-left: 60%;
+
+           }
+
+           .fur_card8 {
+            width: 75%;
+            height: 75%;
+            margin-top: 220px;
+            margin-left: 80%;
 
            }
     
     }
+
+
+
+        .contact-box{
+        display: block;
+    }
+    
 
     footer {
         background-color: #174655;
@@ -2106,17 +2198,6 @@ footer h3{
        }
 }
 
-.fur_img_cards:active{
-    .fur_restack_bttn{
-        margin-top: 85%;
-    }
-
-.fur_card5, .fur_card6, .fur_card7, .fur_card8 {
-        margin-top: 200px;
-
-       }
-
-}
 }
 
 /* phone media *//* phone media *//* phone media */
@@ -2225,19 +2306,6 @@ footer h3{
         margin: auto;
     }
 
-    .fur_img_cards:active{
-        .fur_restack_bttn{
-            margin-top: 85%;
-        }
-    
-    .fur_card5, .fur_card6, .fur_card7, .fur_card8 {
-            margin-top: 200px;
-
-           }
-    
-    }
-
-}
 
     .contact-box{
         display: block;
