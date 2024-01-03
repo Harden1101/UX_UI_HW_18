@@ -491,9 +491,16 @@ li:hover{
     background-image:url(../Images/BCK_Case/comic_cell6_quotes.png);
 }
 
+.priority_matrix{
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
 .user_flow_img{
     width: 100%;
     margin: auto;
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 
 .user_flow_img img{
@@ -507,6 +514,7 @@ li:hover{
 .low_fi_mockup_img img{
     margin: auto;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .smaller_pt_size{
@@ -585,16 +593,25 @@ li:hover{
     border: 2px solid #F9963E;
 }
 
+.iterations_section{
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.iterations_section h1{
+    padding-bottom: 15px;
+}
+
 .iteration_img{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1%;
-    width: 100%;
-    margin: auto;
+    display: flex;
 }
 
 .iteration_img img{
-    padding-left: 2%;
+    width: 29%;
+    height: 29%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -10px;
 
 }
 
@@ -604,6 +621,7 @@ li:hover{
 
 .final_img img{
     width: 100%;
+    padding-bottom: 50px;
 }
 
 
