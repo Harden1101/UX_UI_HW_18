@@ -509,6 +509,29 @@ li:hover{
     width: 100%;
 }
 
+.smaller_pt_size{
+    font-size: 14pt;
+}
+
+.SG_ft1, .SG_ft2, .SG_ft3 {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.SG_ft1{
+    font-size: clamp(4rem, 7.3vw, 6rem); 
+}
+
+.SG_ft2{
+    font-size: clamp(3rem, 5.3vw, 4rem); 
+}
+
+.Ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
 .event_poster_imgs{
     display: flex;
 }
@@ -561,3 +584,26 @@ li:hover{
 .hover_button{
     border: 2px solid #F9963E;
 }
+
+.iteration_img{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1%;
+    width: 100%;
+    margin: auto;
+}
+
+.iteration_img img{
+    padding-left: 2%;
+
+}
+
+.final_img{
+    width: 100%;
+}
+
+.final_img img{
+    width: 100%;
+}
+
+
