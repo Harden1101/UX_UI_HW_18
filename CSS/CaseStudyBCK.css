@@ -632,9 +632,8 @@ li:hover{
 /* Mobile phone break point */
 /* Mobile phone break point */
 
-@media only screen and (max-width: 767px){
-    .comic1_left, .comic2_right, .comic3, .comic_img4, .comic_img5, .comic_img6{
-        display: block;
+@media only screen and (max-width: 576px){
+    .comic1_left, .comic2_right, .comic3, .comic_img4, .comic_img5{
         margin-top: 0px;
         width: 100%;
         height: 250px;
