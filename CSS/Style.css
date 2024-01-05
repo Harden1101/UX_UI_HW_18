@@ -2310,6 +2310,9 @@ footer h3{
         margin: auto;
     }
 
+    .fur_MyRoll_container h3{
+        font-size: 10pt;
+    }
 
     .contact-box{
         display: block;
