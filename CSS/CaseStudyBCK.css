@@ -43,9 +43,14 @@ section{
     float: right;
 }
 
+ .navbar-nav {
+      margin-left: auto;
+    }
+
 nav .navbar-nav li a{
     color: #174655 !important;
     font-size: 14pt;
+    margin: 10px;
     }
 
     nav .navbar-nav li a:hover{
