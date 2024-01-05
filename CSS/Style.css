@@ -2277,6 +2277,10 @@ footer h3{
         animation-range: cover 0% cover 35%;
     }
 
+    .hike_roll1 h3, .hike_roll2 h3, .hike_roll3 h3{
+        font-size: 10pt;
+    }
+
         .hike_img_cards:active{
         .hike_restack_bttn{
             margin-top: 85%;
