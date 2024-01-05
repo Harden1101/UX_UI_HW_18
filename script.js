@@ -13,7 +13,9 @@ CardSep.addEventListener('click', () => {
 
 */
 
-
+$(".navbar-nav .nav-link").on('click', function () {
+    $(".navbar-toggler").click(); // Simulate a click on the navbar-toggler button
+  });
 
 
 

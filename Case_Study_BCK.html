@@ -26,22 +26,34 @@
 <!--  Nav Section --><!--  Nav Section --><!--  Nav Section -->
 <!--  Nav Section --><!--  Nav Section --><!--  Nav Section -->
 
-    <section class="navigation">
-        <div class="My_Logo">
-            <img class="Main_logo" src="Images/My_Logo.svg" alt="Mitchell Haden Designs">
-        </div>
-
-        <nav class="inline_block">
-            <ul>
-                <li class="inline_block"> <A href="#About_Me">About Me</A></li>
-                <li class="inline_block"> <A href="#My_Services">My Skills</A> </li> 
-                <li class="inline_block"> <A href="#My_work">My Projects</A> </li>
-                <div class="Resume"> <a href="Mitchell_Harden_resume.jpg" download="download Image">Resume</a></div>
-                <div class="contact">Contact Me</div>
-            </ul>
-        </nav>
-
-    </section>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+        <img src="Images/Logo-MH Designs.png" width="65" height="65" alt="">
+      </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="#section1">My Roll</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#design_process">Design Process</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#research">Research</a>
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link" href="#prototyping">Prototyping</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#final_design">Final Design</a>
+            </li> 
+      </ul>
+    </div>
+  </nav>
 
     <!-- Bootstrap start Hero Sectionn-->   <!-- Bootstrap start Hero Sectionn-->   <!-- Bootstrap start Hero Sectionn-->
        <!-- Bootstrap start Hero Sectionn-->   <!-- Bootstrap start Hero Sectionn-->   <!-- Bootstrap start Hero Sectionn-->
@@ -94,7 +106,7 @@
 <!-- Section two --><!-- Section two --><!-- Section two -->
 <!-- Section two --><!-- Section two --><!-- Section two -->
 
-<Section class="section section2">
+<Section class="section section2" id="design_process">
     <div class="container">
        <div class="sect2_content">
             <div class="row">
@@ -129,7 +141,7 @@
 <!-- Section 4 start --> <!-- Section 4 start --> 
 
 
-<Section class="section section2 Section4">
+<Section class="section section2 Section4" id="research">
     <div class="container">
        <div class="sect2_content">
             <div class="row">
@@ -305,7 +317,7 @@
 <!-- Section 6 start --> <!-- Section 6 start --> 
 
 
-<Section class="section section2 Section6">
+<Section class="section section2 Section6" id="prototyping">
     <div class="container">
        <div class="sect2_content">
             <div class="row">
@@ -420,7 +432,7 @@
    </div>
     </div>
 
-   <h1>Final Design </h1>
+   <h1 id="final_design">Final Design </h1>
    <p>Press to play desktop mode</p>
    <div class="row">
         <div class="col-md-12">
@@ -447,6 +459,8 @@
 
 </section>
 
-    
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="script.js"></script>
+ 
 </body>
 </html>

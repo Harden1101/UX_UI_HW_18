@@ -33,111 +33,25 @@ section{
 
 /*  Navigation section  */
 
-.navigation {
-    border-bottom: solid 2px #174655;
 
-}
 
-.inline_block, .My_Logo {
+.nav-item{
     display: inline-block;
-    vertical-align: top;
 }
 
-
-.My_Logo {
-    width: 12%;
-    padding: .25%;
-    height: 65px;
-    justify-content: center;
+.nav_link_container{
+    float: right;
 }
 
-nav {
-    width: 83%;
-    padding: 1%;
-    color: #174655;
-    text-align: right;
-
-}
-
-nav a{
-        text-decoration: none;
-        color: #174655;
-        font-size: 14pt;
-}
-
-.Main_logo{
-    width:100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-
-
-ul {
-   width: 100%;
-   margin-left: auto;
-}
-
-li {
-    margin-left: 10px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+nav .navbar-nav li a{
+    color: #174655 !important;
     font-size: 14pt;
-}
+    }
 
-li:hover{
-    border-bottom: 2px solid #174655;
-    font-size: 16pt;
-}
-
-.Resume{
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 10px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: solid 1px #174655;
-    color: #174655;
-    scale: 115%;
-    margin-right: 20px;
-    margin-left: 25px;
-    font-size: 14pt;
-    border-radius: 5px;
-
-}
-
-.Resume:hover{
-    background: #174655;
-}
-
-.Resume:hover a{
-    color: white;
-}
-
-
-.contact {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 10px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #174655;
-    color: white;
-    scale: 115%;
-    margin-right: 20px;
-    font-size: 14pt;
-    border-radius: 5px;
-}
-
-.contact:hover{
-    background: white;
-    border: solid 1px #174655;
-    color: #174655;
-    cursor: pointer;
-}
+    nav .navbar-nav li a:hover{
+        text-decoration: underline  solid 2px #174655;
+        text-underline-offset: 5px;    
+    }
 
 /* Hero section */
 /* hero section */
@@ -578,8 +492,17 @@ li:hover{
 
 }
 
+
 /* Mobile phone break point */
 /* Mobile phone break point */
 
+
+@media only screen and (max-width: 992px) {
+    li{
+    text-align: center;
+    border-bottom: solid 2px #174655;
+}
+
+}
 
 
