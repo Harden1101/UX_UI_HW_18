@@ -26,6 +26,7 @@ h1{
     color: #3461E5;
 }
 
+
 section{
     overflow-x: hidden;
     background-color: #FFFDF7
@@ -147,8 +148,8 @@ nav .navbar-nav li a{
 
  .section2 h1{
     text-align: center;
-    margin-top: 20%;
-    font-size: 100pt;
+    margin-top: 50vh;
+    font-size: clamp(2.25rem, 1.1071rem + 5.7143vw, 6.25rem);
  }
 
 .clouds{
@@ -359,10 +360,6 @@ nav .navbar-nav li a{
     margin-top: 80px;
 }
 
-.style_guide_header{
-    margin-top: ;
-}
-
 .SG_ft1, .SG_ft2, .SG_ft3 {
     font-family: 'Ubuntu', sans-serif;
     color: black;
@@ -531,6 +528,15 @@ nav .navbar-nav li a{
     #final_design{
         scroll-margin-top: 340px;
     }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .section5_UserPersona_guy img{
+       margin-bottom: 50px;
+    }
+    
 
 }
 
