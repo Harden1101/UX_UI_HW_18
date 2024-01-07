@@ -149,8 +149,10 @@ nav .navbar-nav li a{
  .section2 h1{
     text-align: center;
     margin-top: 50vh;
-    font-size: clamp(2.25rem, 1.1071rem + 5.7143vw, 6.25rem);
- }
+    font-size: clamp(3.125rem, 2.2321rem + 4.4643vw, 6.25rem);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
 
 .clouds{
     margin-top:-100px;
