@@ -116,6 +116,10 @@ nav .navbar-nav li a{
     width: 125%;
 }
 
+.lower50px{
+    margin-top: 50px;
+}
+
 .tools_icon{
     width: 20%;
     margin-top: -20px;
@@ -138,6 +142,7 @@ nav .navbar-nav li a{
     background-size: cover;
     height: 100vh;
     overflow-x: hidden;
+    margin-top: 80px;
  }
 
  .section2 h1{
@@ -211,6 +216,10 @@ nav .navbar-nav li a{
     padding-top: 90px;
 }
 
+.section5_left1{
+    margin-top: 150px;
+}
+
 .section5_left3 p{
     margin-top: 170px;
     font-size: 25pt;
@@ -219,7 +228,7 @@ nav .navbar-nav li a{
 
 
 .section5_Infinit_Img{
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .section5_Infinit_Img img, .section5_Infinity_icon img{
@@ -231,16 +240,18 @@ nav .navbar-nav li a{
     margin-top: 109px;
 }
 
+
+/* Persona Section */
+
+.Persona_section{
+    margin-top: 80px;
+}
+
 .section5_UserPersona_guy img{
     width: 110%;
     margin-left: -40px;
 }
 
-/* Persona Section */
-
-.Persona_section{
-    margin-top: 50px;
-}
 
 .stats_row1, .stats_row2, .stats_row3{
     border: 1px solid black;
@@ -315,15 +326,14 @@ nav .navbar-nav li a{
 }
 
 .priority_matrix{
-    padding-top: 25px;
-    padding-bottom: 50px;
+    margin-top: 80px;
 }
 
 .user_flow_img{
     width: 100%;
     margin: auto;
     padding-top: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 .user_flow_img img{
@@ -332,6 +342,7 @@ nav .navbar-nav li a{
 
 .low_fi_mockup_img{
     width: 100%;
+    margin-top: 30px;
 }
 
 .low_fi_mockup_img img{
@@ -342,6 +353,14 @@ nav .navbar-nav li a{
 
 .smaller_pt_size{
     font-size: 14pt;
+}
+
+.style_guide{
+    margin-top: 80px;
+}
+
+.style_guide_header{
+    margin-top: ;
 }
 
 .SG_ft1, .SG_ft2, .SG_ft3 {
@@ -417,8 +436,8 @@ nav .navbar-nav li a{
 }
 
 .iterations_section{
-    padding-top: 25px;
-    padding-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .iterations_section h1{
@@ -506,7 +525,12 @@ nav .navbar-nav li a{
     li{
     text-align: center;
     border-bottom: solid 2px #174655;
-}
+    }
+
+
+    #final_design{
+        scroll-margin-top: 340px;
+    }
 
 }
 
