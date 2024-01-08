@@ -1571,6 +1571,8 @@ label{
   color: black;
 }
 
+
+
 /* Footer section */
 /* Footer section */
 /* Footer section */
@@ -2271,8 +2273,7 @@ footer h3{
     .input_group{
         margin-bottom: 15px;
     }
-    
-    
+
     footer h3{
         display: inline-block;
         width: 100%;
