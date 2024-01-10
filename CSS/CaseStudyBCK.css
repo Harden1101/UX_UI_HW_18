@@ -464,9 +464,17 @@ nav .navbar-nav li a{
     padding-bottom: 50px;
 }
 
+#BCK_proto_site{
+    color: #174655;
+    font-size: 24px;
+    margin-left: 35%;
+    text-underline-offset: 115px;  
+}
+
 
 .final_img{
     width: 100%;
+    margin-top: 15px;
 }
 
 .final_img img{
