@@ -466,6 +466,84 @@ nav .navbar-nav li a{
 }
 
 
+/* Footer section */
+/* Footer section */
+/* Footer section */
+
+
+footer {
+    background-color: #174655;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#footer_container{
+    margin: 0 auto;
+    max-width: 95%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+footer h3{
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    padding: 0;
+    margin-left: 100px;
+    font-size: 16px;
+    line-height: 40px;
+    color: white;
+}
+
+.footer_logo_container {
+    float: right;
+    margin-right: 50px;
+
+}
+
+.footer_FB {
+    display: inline-block;
+    background-image: url(../Images/FB_icon.png);
+    height: 30px;
+    width: 40px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+ 
+    
+}
+
+.footer_linkedIn {
+    display: inline-block;
+    background-image: url(../Images/Linkedin_icon.png);
+    height: 30px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left:  10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+.footer_Behnce {
+    display: inline-block;
+    background-image: url(../Images/Behance_icon.png);
+    height: 30px;
+    width: 70px;
+    margin-top: 5px;
+    margin-left:  15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+
+
+
 /* Break points */
 /* Break points */
 
@@ -530,6 +608,31 @@ nav .navbar-nav li a{
 
 }
 
+@media only screen and (max-width: 1079px) {
+    footer {
+        background-color: #174655;
+        text-align: center;
+        height: 130px;
+        width: 100%;
+       
+    }
+
+    footer h3{
+        line-height: 25px;
+        margin-left: 0px;
+    }
+
+    .footer_logo_container {
+        display: block;
+        clear: both;
+        margin-right: 0px;
+        float: none;
+        margin-top: 10px;
+
+}
+
+}
+
 
 @media only screen and (max-width: 992px) {
     li{
@@ -537,13 +640,11 @@ nav .navbar-nav li a{
     border-bottom: solid 2px #174655;
     }
 
-
     #final_design{
         scroll-margin-top: 340px;
     }
 
 }
-
 
 @media only screen and (max-width: 768px) {
     .section5_UserPersona_guy img{
