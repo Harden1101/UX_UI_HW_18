@@ -563,6 +563,13 @@ footer h3{
 /* Break points */
 /* Break points */
 
+@media only screen and (min-width: 1440px){
+    .clouds2{
+        width: 130vw;
+        margin-left: -300px;
+    }
+}
+
 
 @media only screen and (min-width: 768px) {
     .sect1_solution_wider{
