@@ -60,6 +60,9 @@ nav .navbar-nav li a{
     }
 
     /* Section one *//* Section one */
+#section1{
+    z-index: 1;
+}
 
 .logo_img{
     width: 80%;
@@ -121,6 +124,15 @@ nav .navbar-nav li a{
     text-align: center;
 }
 
+.trail_animate_img1{
+    position: absolute;
+    z-index: 999;
+}
+
+.trail_animate_img1 img{
+
+    z-index: 999;
+}
 
 .trail_animate_img2{
     position: absolute;
