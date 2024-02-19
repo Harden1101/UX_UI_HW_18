@@ -10,7 +10,8 @@ html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+    overflow-x: hidden;
+  
 }
 
 .Web_Max-width_container{
@@ -195,6 +196,7 @@ nav .navbar-nav li a{
     height: 500px;
     z-index: 999;
     pointer-events: none;
+    overflow-x: hidden;
 }
 
 .green_circle_left img{
@@ -244,6 +246,7 @@ nav .navbar-nav li a{
     height: 500px;
     z-index: 999;
     pointer-events: none;
+    overflow-x: hidden;
 }
 
 .green_circle_right img{
@@ -409,10 +412,92 @@ nav .navbar-nav li a{
     width: 100%;
 }
 
+.hike_bttn{
+    all: unset;
+    background-color: #21847F;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white !important;
+    margin-left: 40%;
+    
+}
 
+/* Break point setions */
 
+@media only screen and (min-width: 1880px){
+    .green_circle_left, .green_circle_left2{
+        margin-left: -800px;
+    }
 
+}
 
+@media only screen and (max-width: 1199px){
+    .green_circle_left2{
+        margin-left: -500px;
+        top: 6950px;
+      
+    }
+}
+
+@media only screen and (max-width: 1140px){
+    .trail_animate_img1{
+            width: 100%;
+            margin-top: 15px;
+        
+    }
+
+    .trail_animate_img2{
+        margin-top: 55px;
+        margin-left: 70%;
+     }
+
+     .path_animate3_container{
+        left: 73%;
+    }
+
+    .green_circle_left{
+        top: 570px;
+    }
+
+ 
+
+}
+
+@media only screen and (max-width: 992px){
+    .trail_animate_img1{
+            width: 130%;
+            margin-top: 0px;
+            margin-left: -80px;
+        
+    }
+
+    .trail_animate_img2{
+        margin-top: 95px;
+        margin-left: 65%;
+     }
+
+     .path_animate3_container{
+        left: 73%;
+    }
+
+    .green_circle_left{
+        top: 670px;
+    }
+
+    .green_circle_right{
+        top: 3100px;
+    }
+
+    @media only screen and (max-width: 1199px){
+        .green_circle_left2{
+            margin-left: -500px;
+            top: 6750px;
+          
+        }
+    }
+
+}
 
 
 
