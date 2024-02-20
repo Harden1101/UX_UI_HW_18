@@ -404,6 +404,7 @@ nav .navbar-nav li a{
 
 .phone_vid{
     width: 100%;
+    background-color: pink;
 }
 
 .phone_vid video{
